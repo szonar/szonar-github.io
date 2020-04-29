@@ -1,0 +1,93 @@
+article {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+header, blockquote {
+  font-family: 'Abril Fatface', cursive;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+header {
+  background: no-repeat center/80% url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  height: 410px;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+blockquote {
+  width: 105%;
+  background-color: #444444;
+  color: white;
+  font-size: 3em;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -50px;
+  margin-top: 0.5em;
+  padding-right: 10px;
+}
+
+blockquote::before {
+  content: "\201C";
+  position: relative;
+  font-size: 3em;
+  top: -40px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.name {
+  font-size: 2em;
+}
+
+section {
+    line-height: 150%;
+  font-size: 
+}
+
+.text {
+  font-size: 1.8em;
+  text-align: left;
+  position: relative;
+  top: 250px;
+  right: 100px;
+  /* ez a fenti biztos kell? nincs valami automata cucc?*/
+}
+
+.intro {
+  font-size: 1.2em;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+ul {
+  padding-bottom: 20px;
+}
+
+hr {
+  width: 100%;
+  border-top: 5px solid black;
+}
